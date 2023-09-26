@@ -33,14 +33,14 @@ public class Program {
 		
 		
 		try {
-//			exercise1_1();
-//			exercise1_2();
-//			exercise2();
-//			exercise3();
-//			exercise4();
-//			exercise6_1();
-//			exercise5_2();
-//			exercise9();
+			exercise1_1();
+			exercise1_2();
+			exercise2();
+			exercise3();
+			exercise4();
+			exercise6_1();
+			exercise5_2();
+			exercise9();
 			exercise10();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
