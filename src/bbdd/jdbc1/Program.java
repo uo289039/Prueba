@@ -91,6 +91,24 @@ public class Program {
 		con.close();
 	}
 	
+	public static void exercise1_3() throws SQLException{
+		System.out.println("#########EJERCICIO 1_1#########");
+		Connection con =getConnection();
+		StringBuilder query=new StringBuilder();
+		String sentencia="select nombre, apellido from clientes c, "
+				+ "ventas v, coches ch, concesionarios cn where c.dni=v.dni "
+				+ "and v.codcoche=ch.codcoche and "
+				+ "ch.modelo='lexus' and cn.cifc=v.cifc and cn.ciudadc='barcelona'";
+		query.append(sentencia);
+		Statement st=con.createStatement();
+		ResultSet rs = st.executeQuery(query.toString());
+		showResults(rs);
+		rs.close();
+		st.close();
+		con.close();
+		
+	}
+	
 	/*
 		2. Crear un metodo en Java que muestre por pantalla el resultado de la consulta 6 de la Practica SQL2 de forma el color de la busqueda sea introducido por el usuario.
 			(6) Obtener el nombre de las marcas de las que se han vendido coches de un color introducido por el usuario.
