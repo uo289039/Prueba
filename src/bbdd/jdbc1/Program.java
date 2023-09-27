@@ -47,6 +47,7 @@ public class Program {
 			exercise10();
 			exercise7_1();
 			exercise7_2();
+			System.out.println("Acabado");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
