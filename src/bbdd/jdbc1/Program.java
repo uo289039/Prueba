@@ -40,6 +40,7 @@ public class Program {
 			exercise3();
 			exercise4();
 			exercise6_1();
+			exercise5_1();
 			exercise5_2();
 			exercise9();
 			exercise10();
