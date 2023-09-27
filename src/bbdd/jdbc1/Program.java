@@ -43,6 +43,7 @@ public class Program {
 			exercise5_1();
 			exercise5_2();
 			exercise9();
+			exercise8();
 			exercise10();
 			exercise7_1();
 			exercise7_2();
