@@ -35,6 +35,7 @@ public class Program {
 		try {
 			exercise1_1();
 			exercise1_2();
+			exercise1_3();
 			exercise2();
 			exercise3();
 			exercise4();
